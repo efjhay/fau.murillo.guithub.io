@@ -50,5 +50,5 @@ I’m open to **long-term contracts** and **freelance projects**. Reach out for:
 - Custom web/API development  
 - Performance optimization  
 
-📧 **Email:** [your@email.com]  
+📧 **Email:** [murillofaustinejohn@outlook.com]  
 💼 **LinkedIn:** [Your LinkedIn Profile]  
