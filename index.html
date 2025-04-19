@@ -9,7 +9,7 @@
   <meta name="description" content="Portfolio of Faustine John Murillo, full-stack developer with over 10 years of experience.">
   <style>
     body {
-      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      background: linear-gradient(160deg, #1a1a2e, #16213e, #0f3460);
     }
     .glass {
       backdrop-filter: blur(16px) saturate(180%);
@@ -20,65 +20,69 @@
       transition: all 0.3s ease-in-out;
     }
     .glass:hover {
-      box-shadow: 0 0 15px rgba(0, 255, 255, 0.3), 0 0 25px rgba(0, 255, 255, 0.1);
-      transform: scale(1.015);
+      box-shadow: 0 0 20px rgba(100, 255, 218, 0.3), 0 0 30px rgba(100, 255, 218, 0.1);
+      transform: scale(1.02);
     }
   </style>
 </head>
-<body class="text-white font-sans">
+<body class="text-white font-sans leading-relaxed antialiased">
   <!-- Header -->
-  <header class="py-12">
+  <header class="py-14">
     <div class="max-w-4xl mx-auto text-center px-4">
-      <img src="/profile_img.jpg" alt="Portrait of Faustine John Murillo" loading="lazy"
-           class="w-32 h-32 rounded-full border-4 border-cyan-400 mx-auto shadow-lg object-cover mb-4 transition-transform duration-300 hover:scale-105 hover:shadow-cyan-400/40" />
-      <h1 class="text-4xl md:text-5xl font-extrabold tracking-wide mb-2">Faustine John Murillo</h1>
-      <p class="text-cyan-300 text-xl mb-6">Full-Stack Developer • 10+ Years Experience</p>
-      <div class="flex justify-center gap-6 text-cyan-400 text-lg">
-        <a href="mailto:murillofaustinejohn@outlook.com" class="hover:text-white transition hover:underline underline-offset-4">📧 Email</a>
-        <a href="https://github.com/efjhay" target="_blank" class="hover:text-white transition hover:underline underline-offset-4">🐙 GitHub</a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank" class="hover:text-white transition hover:underline underline-offset-4">💼 LinkedIn</a>
+      <img src="/profile_img.jpg" alt="Faustine John Murillo" loading="lazy"
+           class="w-32 h-32 rounded-full border-4 border-teal-400 mx-auto shadow-lg object-cover mb-5 transition-transform duration-300 hover:scale-105 hover:shadow-teal-400/40" />
+      <h1 class="text-4xl md:text-5xl font-extrabold tracking-wide mb-2 bg-gradient-to-r from-teal-400 to-emerald-300 text-transparent bg-clip-text">
+        Faustine John Murillo
+      </h1>
+      <p class="text-teal-300 text-lg md:text-xl mb-6">Full-Stack Developer · 10+ Years Experience</p>
+      <div class="flex justify-center gap-8 text-teal-400 text-lg">
+        <a href="mailto:murillofaustinejohn@outlook.com" class="hover:text-amber-200 transition underline-offset-4 hover:underline">📧 Email</a>
+        <a href="https://github.com/efjhay" target="_blank" class="hover:text-amber-200 transition underline-offset-4 hover:underline">🐙 GitHub</a>
+        <a href="https://linkedin.com/in/your-profile" target="_blank" class="hover:text-amber-200 transition underline-offset-4 hover:underline">💼 LinkedIn</a>
       </div>
     </div>
   </header>
 
-  <!-- Skills Section -->
+  <!-- Main Content -->
   <main class="max-w-5xl mx-auto px-6">
-    <section class="glass p-8 mb-16 shadow-xl">
-      <h2 class="text-2xl font-semibold mb-6 border-l-4 border-cyan-400 pl-4">🚀 Technical Skills</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- Skills Section -->
+    <section class="glass p-10 mb-16 shadow-xl">
+      <h2 class="text-2xl font-bold mb-6 border-l-4 border-teal-400 pl-4">🚀 Technical Skills</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div>
-          <h3 class="text-xl font-semibold mb-3 text-cyan-300">Languages</h3>
+          <h3 class="text-xl font-semibold mb-3 text-teal-300">Languages</h3>
           <ul class="space-y-2 text-gray-300">
-            <li class="transition hover:text-white">🧠 C/C++</li>
-            <li class="transition hover:text-white">🐍 Python</li>
-            <li class="transition hover:text-white">🕸 JavaScript</li>
-            <li class="transition hover:text-white">⚙️ C#</li>
-            <li class="transition hover:text-white">🔧 Node.js</li>
+            <li class="hover:text-white transition">🧠 C/C++</li>
+            <li class="hover:text-white transition">🐍 Python</li>
+            <li class="hover:text-white transition">🕸 JavaScript</li>
+            <li class="hover:text-white transition">⚙️ C#</li>
+            <li class="hover:text-white transition">🔧 Node.js</li>
           </ul>
         </div>
         <div>
-          <h3 class="text-xl font-semibold mb-3 text-cyan-300">Frameworks & Tools</h3>
+          <h3 class="text-xl font-semibold mb-3 text-teal-300">Frameworks & Tools</h3>
           <ul class="space-y-2 text-gray-300">
-            <li class="transition hover:text-white">💻 .NET Framework</li>
-            <li class="transition hover:text-white">⚛️ React</li>
-            <li class="transition hover:text-white">🔗 Git</li>
+            <li class="hover:text-white transition">💻 .NET Framework</li>
+            <li class="hover:text-white transition">⚛️ React</li>
+            <li class="hover:text-white transition">⚛️ NEXT.js</li>
+            <li class="hover:text-white transition">🔗 Git</li>
           </ul>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="glass p-8 shadow-xl">
-      <h2 class="text-2xl font-semibold mb-6 border-l-4 border-cyan-400 pl-4">📬 Let's Work Together</h2>
+    <section class="glass p-10 shadow-xl">
+      <h2 class="text-2xl font-bold mb-6 border-l-4 border-teal-400 pl-4">📬 Let's Work Together</h2>
       <p class="text-gray-300 mb-4">I specialize in:</p>
       <ul class="list-disc list-inside text-gray-300 space-y-2">
-        <li class="transition hover:text-white">⚙️ Legacy system upgrades</li>
-        <li class="transition hover:text-white">🌐 Full-stack web development</li>
-        <li class="transition hover:text-white">🪟 Windows app development</li>
-        <li class="transition hover:text-white">⚡️ Performance optimization</li>
+        <li class="hover:text-white transition">⚙️ Legacy system upgrades</li>
+        <li class="hover:text-white transition">🌐 Full-stack web development</li>
+        <li class="hover:text-white transition">🪟 Windows app development</li>
+        <li class="hover:text-white transition">⚡️ Performance optimization</li>
       </ul>
       <div class="mt-6">
-        <a href="mailto:murillofaustinejohn@outlook.com" class="bg-cyan-500 text-white px-6 py-2 rounded-full hover:bg-cyan-600 hover:shadow-cyan-400/50 shadow-md transition duration-300">
+        <a href="mailto:murillofaustinejohn@outlook.com" class="bg-teal-500 text-white px-6 py-3 rounded-full font-medium hover:bg-teal-600 hover:shadow-lg shadow-amber-200/20 transition duration-300">
           Get in Touch
         </a>
       </div>
