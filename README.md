@@ -32,18 +32,6 @@ Legacy System Modernization | API Development | Performance Optimization
 
 ---
 
-### **📂 Projects**  
-#### [Project 1 Title]  
-- **Tech Stack:** C#, .NET, SQL  
-- **Description:** [Briefly explain the problem and your solution].  
-- **Repo Link:** [🔗 GitHub URL]  
-
-#### [Project 2 Title]  
-- **Tech Stack:** Node.js, Python, REST APIs  
-- **Description:** [Focus on business impact, e.g., "Automated workflow saving 20+ hours/month"].  
-
----
-
 ### **📬 Let’s Collaborate**  
 I’m open to **long-term contracts** and **freelance projects**. Reach out for:  
 - Legacy system upgrades  
